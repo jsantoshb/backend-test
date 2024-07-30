@@ -1,5 +1,5 @@
 import {ApplicationConfig, BackendTestApplication} from './application';
-
+const dotenv = require('dotenv').config({multiline: true});
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
